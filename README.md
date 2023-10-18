@@ -1,3 +1,2 @@
-# tyler-the-quotemaker-api
-# tyler-the-quotemaker-api
-# tyler-the-quotemaker-api
+# Tyler, the Quotemaker API
+Documentation in progress...
