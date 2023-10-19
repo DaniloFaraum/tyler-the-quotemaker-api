@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const router = express.Router()
 const app = express()
 const jsonParser = express.json()
 
@@ -10,11 +11,7 @@ app.use((req, res, next) => {
     next()
 })
 
-app.listen(8080, () =>{
-    console.log('Server Funcionando');
-})
-
-app.get('/all', cors(), (req, res, next) =>{
+router.get('/all', cors(), (req, res, next) =>{
     const { controllerAllQuotes } = require('./controller/controler')
 
     res.status(200).json({
@@ -22,10 +19,14 @@ app.get('/all', cors(), (req, res, next) =>{
     })
 })
 
-app.get('/random', cors(), (req, res, next) =>{
+router.get('/random', cors(), (req, res, next) =>{
     const { controllerRandomQuote } = require('./controller/controler')
 
     res.status(200).json({
         response: controllerRandomQuote()
     })
 })
+
+app.use('/.netlify/functions/api', router)
+
+module.exports = app
