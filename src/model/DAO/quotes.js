@@ -7,7 +7,7 @@ const quotes = {
   "6": "I was sitting like, there’s nothing I want to buy. I was fully okay with life. It was nothing I was stressed about. I wasn’t sore nowhere. I’m financially good. Everyone around me is healthy. No grudges. The weather was great.",
   "7": "Honestly, I’m a weak bitch. My punches are not good. I can run fast, but if I had to hold somebody from falling off a cliff, they’re going to die.",
   "8": "I’m f**king stoked. My life is sick. I get to still skate around like I did three years ago. I might have to take a couple of pictures, but whatever. I have money to go do stupid sh*t. I couldn’t ask for nothing else.",
-  "9": "Do what the f**k makes you happy. Because in the end, who’s there? You. ― Tyler, the Creator",
+  "9": "Do what the f**k makes you happy. Because in the end, who’s there? You.",
   "10": "Don’t be scared of color.",
   "11": "Do something productive, stay the f**k off of Snapchat.",
   "12": "It’s actually beautiful that we’re aware of this superpower that we have where we’re just us, no matter what. We don’t get nervous in front of people. We look in the mirror and we’re okay with it.",
